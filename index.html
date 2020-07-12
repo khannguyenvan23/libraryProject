@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style/index.css">
+     
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">List Book</div>
+        <!-- LIST BOOK AFTER ADD NEW  -->
+        <div class="listBook">
+            <!-- DEMO START -->
+            <div class="listBook__box">
+                <div class="ListBook__content">
+                    <div class="ListBook__title">The Last Of Us</div>
+                    <div class="ListBook__author">
+                        <p>Author By</p>
+                        <p>Van Khan</p>
+                    </div>
+                    <div class="ListBook__status">
+                        <p>Status</p>
+                        <p>Not Read <i class="icon-ok"></i></p>
+                        
+                    </div>
+                    <div class="ListBook__pages">
+                        <p>Pages</p>
+                        <p>180</p>
+                    </div>
+                    <div class="ListBook__remove">
+                        <i class="icon-trash icon-large"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="listBook__box">
+                <div class="ListBook__content">
+                    <div class="ListBook__title">The Last Of Us</div>
+                    <div class="ListBook__author">
+                        <p>Author By</p>
+                        <p>Van Khan</p>
+                    </div>
+                    <div class="ListBook__status">
+                        <p>Status</p>
+                        <p>Not Read</p>
+                        <i class="icon-ok"></i>
+                    </div>
+                    <div class="ListBook__pages">
+                        <p>Pages</p>
+                        <p>180</p>
+                    </div>
+                    <div class="ListBook__remove">
+                        <i class="icon-trash icon-large"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="listBook__box">
+                <div class="ListBook__content">
+                    <div class="ListBook__title">The Last Of Us</div>
+                    <div class="ListBook__author">
+                        <p>Author By</p>
+                        <p>Van Khan</p>
+                    </div>
+                    <div class="ListBook__status">
+                        <p>Status</p>
+                        <p>Not Read</p>
+                        <i class="icon-ok"></i>
+                    </div>
+                    <div class="ListBook__pages">
+                        <p>Pages</p>
+                        <p>180</p>
+                    </div>
+                    <div class="ListBook__remove">
+                        <i class="icon-trash icon-large"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="listBook__box">
+                <div class="ListBook__content">
+                    <div class="ListBook__title">The Last Of Us</div>
+                    <div class="ListBook__author">
+                        <p>Author By</p>
+                        <p>Van Khan</p>
+                    </div>
+                    <div class="ListBook__status">
+                        <p>Status</p>
+                        <p>Not Read</p>
+                        <i class="icon-ok"></i>
+                    </div>
+                    <div class="ListBook__pages">
+                        <p>Pages</p>
+                        <p>180</p>
+                    </div>
+                    <div class="ListBook__remove">
+                        <i class="icon-trash icon-large"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="listBook__box">
+                <div class="ListBook__content">
+                    <div class="ListBook__title">The Last Of Us</div>
+                    <div class="ListBook__author">
+                        <p>Author By</p>
+                        <p>Van Khan</p>
+                    </div>
+                    <div class="ListBook__status">
+                        <p>Status</p>
+                        <p>Not Read</p>
+                        <i class="icon-ok"></i>
+                    </div>
+                    <div class="ListBook__pages">
+                        <p>Pages</p>
+                        <p>180</p>
+                    </div>
+                    <div class="ListBook__remove">
+                        <i class="icon-trash icon-large"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- DEMO END -->
+        </div> 
+    </div>
+     <!-- FOOTER  -->
+    <footer>
+        <div class="footer__container">
+            <ul>
+                
+                <li><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addNew">
+                    Add New Book
+                  </button></li>
+                <li><a href="/">Follow Me On Twitter</a></li>
+                <li><a href="/">Github</a></li>
+                
+            </ul>
+            <p class="Author">Make by Van Khan</p>
+        </div>
+       
+
+    </footer>
+    <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="addNew" tabindex="-1" role="dialog" aria-labelledby="addNew" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content pl-4 pt-2">
+        <div class="modal-header">
+          <h5 class="modal-title" id="addNew">Add New BOOK</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="form-group">
+            <label for="titleBook">Title</label>
+            <input type="text" class="form-control" id="titleBook" aria-describedby="titleBookHelp" placeholder="Enter title of your book">
+            <small id="titleBookHelp" class="form-text text-muted">Type down your name of favirote book you want to read.</small>
+          </div>
+          <div class="form-group">
+            <label for="authorBook">Author</label>
+            <input type="text" class="form-control" id="authorBook" placeholder="Name of Author">
+          </div>
+          <div class="form-group">
+            <label for="pagesBook">Pages</label>
+            <input type="number" class="form-control" id="pagesBook" placeholder="Number of Pages">
+          </div>
+          <div class="form-group form-check">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="readCheckBook" id="read" value="true" checked>
+                <label class="form-check-label" for="read">
+                  Read
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="readCheckBook" id="notRead" value="false">
+                <label class="form-check-label" for="notRead">
+                  Not Read Yet
+                </label>
+              </div>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="addBook">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
