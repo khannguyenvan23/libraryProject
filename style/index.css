@@ -6,12 +6,6 @@
 body {
 
 }
-.container {
-    width: 80%;
-    margin: auto;
-    background-color: ;
-}
-
 
 .title {
     border: solid #6C8EBF 1px;
@@ -71,7 +65,7 @@ body {
 
 footer {
     width: 100%;
-    height: 20vh;
+    height: 10vh;
     position: fixed;
     bottom: 0;
 }
@@ -83,8 +77,7 @@ footer::before {
     background-color: #6C8EBF;   
 }
 .footer__container {
-    margin: 10px 0;
-    padding: 20px;
+    
     
 }
 .footer__container ul {
